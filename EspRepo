@@ -346,6 +346,7 @@ local function CharAdded(char)
 					Name = p.Name,
 					Player = p,
 					PrimaryPart = c
+					Temporary = true
 				})
 			end
 		end)
@@ -354,6 +355,7 @@ local function CharAdded(char)
 			Name = p.Name,
 			Player = p,
 			PrimaryPart = char.HumanoidRootPart
+			Temporary = true
 		})
 	end
 end
